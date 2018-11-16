@@ -1,0 +1,8 @@
+$('.quickResponseContainer').empty();
+$('.conversation').append("<li class='me'><%=params[:message]%></li>");
+$('.conversation').append("<li class='him'><%=params[:response][0]%></li>");
+<% for i in 0..(params[:suggestionResponses]).length-1%>
+    $('.quickResponseContainer').append("<button name='quickResponse' class='quickResponse' value='<%=params[:suggestionResponses][i]%>'><%=params[:suggestionResponses][i]%></button>");
+<%end%>
+$('#message_input_field').val("");
+$('.screen').scrollTop(80000000);
