@@ -1,51 +1,45 @@
-$gray180: rgb(180,180,180);
-$gray230: rgb(230,230,230);
-body{
-  background: white; /* fallback for old browsers */
-  //background: -webkit-linear-gradient(to right, #3b8d99, #6b6b83, #3b8d99); /* Chrome 10-25, Safari 5.1-6 */
-  //background: linear-gradient(to right, #3b8d99, #6b6b83, #3b8d99);
+/* Total view */
+.smartphone {
+  width: 100%;
+  max-width: 570px;
+  display: table;
+  margin: auto;
+  margin-top: 15px;
+  padding: 5px;
+  background-color: SlateGray;
+  border-radius: 5px;
 }
 
-@keyframes pisca{
-  0% {
-    background-color: #333;
-    box-shadow: 0px 0px 0px 0px #333;
-  }
-  50%{
-    background-color: white;
-    box-shadow: 0px 0px 5px 0px #fff;
-  }
-  100%{
-    background-color: #333;
-    box-shadow: 0px 0px 0px 0px #333;
-  }
-}
-
-.agent{
+/* Agent header */
+.agent {
   color: white;
-  background-color: #06184C;
-  height: 55px;
-  margin: 0px 2px;
-  //background-image: url(agent.png);
-  //background-repeat: no-repeat;
-  padding-left: 10px;
-  padding-top: 10px;
-  //text-align: left;
+  background-color: transparent;
+  padding: 10px;
 }
 
-.screen{
-  height: 568px;
-  width: 320px;
-  margin: 0px 2px;
-  background: white; /* fallback for old browsers */
-  //border: solid 2px #222;
-  overflow-y: auto;
-  border-bottom: none;
+/* Screen for conversation output */
+.screen {
+  background: white;
+  height: 75vh;
+  overflow-y: auto
  }
 
-.him{
+/* Mobile view */
+ @media only screen and (max-device-width: 800px) {
+   .smartphone {
+     margin-top: 0px;
+     padding: 0px;
+   }
+
+   .screen {
+     height: 65vh;
+    }
+ }
+
+/* Dialogue items for chatbot */
+.him {
   margin-top: 5px;
-  max-width: 200px;
+  max-width:60%;
   color: grey;
   float: left;
   background: white;
@@ -57,203 +51,118 @@ body{
   border-color: grey;
 }
 
-.me{
+/* Dialogue items for user */
+.me {
   margin-top: 5px;
-  max-width: 200px;
+  max-width:60%;
   margin-right: 8px;
   background: #eee;
   float: right;
   padding: 6px;
   border-radius: 15px;
-
-
 }
 
-ul{
+/* Dialogue items style */
+ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-ul li{
+
+/* Dialogue item style */
+ul li {
   display:inline-block;
   clear: both;
-  padding: 20px;
-  border-radius: 30px;
-  margin-bottom: 2px;
 }
 
-.smartphone{
-  height: 568px;
-  width: 320px;
-  display: table;
-  margin: 0 auto;
-  padding: 10px;
-  background-color: #333;
-  border-bottom-left-radius: 30px;
-  border-bottom-right-radius: 30px;
-  border-top-left-radius: 30px;
-  border-top-right-radius: 30px;
-  position: relative;
-  border: solid 1px #222;
-  margin-top: 10px;
-}
-/* LEFT BUTTON
-.btn-up-down{
-  height: 100px;
-  float: left;
-  position: absolute;
-  margin-left: -17px;
-  margin-top: 90px;
-  border-top-left-radius: 3px;
-  border-bottom-left-radius: 3px;
-}
-*/
-.btn{
-  display: table;
-  display: none;
-  width: 8px;
-  background-color: #333;
-}
-
-.cam{
-  border-radius: 15px;
-  height: 15px;
-  width: 15px;
-  display: table;
-  background-color: #444;
-  border: solid 1px #222;
-  margin: 0 auto;
-  margin-top: 15px;
-
-}
-
-.controls, .header{
-  height: 30px;
-  display: table;
-  width: 100%;
-
-}
-
-#sendWrapper {
-  width: 320px; /*follow your image's size*/
-  height: 40px;/*follow your image's size*/
+/* Container for user input */
+#responseWrapper {
   background: white; /* fallback for old browsers */
+  padding-top: 3px;
+}
+
+/* Container for text field and send button */
+#sendWrapper {
+  height: 40px;/*follow your image's size*/
+  background: transparent; /* fallback for old browsers */
   background-repeat:no-repeat; /*important*/
-  margin: 0px 2px;
-  margin-top: -12px;
   position: relative;
   border:none;
-
 }
-#message_input_field{
-  border:0px; /*important*/
+
+/* Input field for user text */
+#message_input_field {
+  border: 0px; /*important*/
   background: transparent;
   position:absolute; /*important*/
   top:4px;
   left:9px;
   width:80%;
   height:28px;
-  &::placeholder{
-    color: $gray180;
-    }
+  &::placeholder{color: rgb(180,180,180);}
+}
 
-    }
-#send_message_button{
-  font-size: 26px;
-  border:0px; /*important*/
-  background-color:transparent; /*important*/
-  color: #163791;
-  //position:absolute; /*important*/
-  float: right;
-  margin-right: 2px;
-  top: 2px;
-  left:265px;
-  width:auto;;
+/* Button for user to send text message */
+#send_message_button {
+  background-color: #163791;
+  color: white;
+  font-weight: bold;
+  width: 70px;
   height:28px;
-  //margin-left:12px;
-          }
+	margin-right: 8px;
+  margin-top: 4px;
+  border-radius: 5px;
+  border: solid 2px #163791;
+  float: right;
+	transition: background-color .5s linear, color .5s linear;
+	&:hover { background-color: darken(RoyalBlue, 0%); border-color: transparent;}
+	&:focus { outline: none; }
+}
+
+/* Button properties */
+button {
+	background-color: #163791;
+	margin-left: 10px;
+	border: none;
+	transition: background-color .5s linear, color .5s linear;
+	&:hover { color: darken(RoyalBlue, 0%);border-color: RoyalBlue;}
+	&:focus { outline: none; }
+}
+
+/* Container for quick responses */
+.quickResponseContainer{
+  overflow:auto;
+  background: white;
+}
+
+/* Quick response button */
+.quickResponse {
+  margin-top: 5px;
+  margin-right: 8px;
+  padding: 6px;
+  background:white;
+  float: right;
+	border-radius: 15px;
+  border: solid 2px #163791;
+	color: #163791;
+}
+
+/* Scrollbar width */
 ::-webkit-scrollbar {
     width: 8px;
-
 }
 
-/* Track GRAUE SCROLLBAR
-::-webkit-scrollbar-track {
-    background: white;  fallback for old browsers
-}
-
- Handle
-::-webkit-scrollbar-thumb {
-    background: #888;
-}
-
- Handle on hover
-::-webkit-scrollbar-thumb:hover {
-    background: #555;
-}
-*/
-
-/* Track*/
+/* Scrollbar track color */
 ::-webkit-scrollbar-track {
     background: white; // fallback for old browsers
 }
 
- /*Handle */
+/* Scrollbar handle color */
 ::-webkit-scrollbar-thumb {
-    background: transparent;
+    background: white;
 }
 
- /*Handle on hover */
+/* Scrollbar hover color */
 ::-webkit-scrollbar-thumb:hover {
     background: LightGrey;
-}
-// Variables
-$btn-color: LightGrey;
-$txt-color: Black;
-$shadow-color: #c7c7c7;
-
-.quickResponseContainer{
-  overflow:hidden;
-  background: white;
-  border: solid 2px #222;
-  border-bottom: none;
-  border-top: none;
-
-}
-button {
-	background-color: $btn-color;
-	margin-left: 10px;
-	border: none;
-	transition:
-		background-color .5s linear,
-		color .5s linear
-	;
-	&:hover { background-color: darken($btn-color, 0%); color: darken($txt-color, 5%); border-color: transparent;}
-	&:focus { outline: none; }
-}
-
-.quickResponse {
-  margin-top: 5px;
-  margin-right: 8px;
-  margin-bottom: 7px;
-  background:white;
-  float: right;
-	//animation: shadowFloat 1.2s linear alternate infinite;
-	border-radius: 15px;
-  border: solid 2px #163791;
-	color: #163791;
-	padding: 6px;
-	//text-shadow: 0 1px 1px darken($btn-color, 10%);
-}
-
-// Animations
-@keyframes shadowFloat {
-   0%   {
-		box-shadow: 0 20px 40px $shadow-color;
-		transform: translateY(-3px);
-	}
-   100% {
-		box-shadow: 0 10px 10px darken($shadow-color, 5%);;
-		transform: translateY(3px);
-	}
 }

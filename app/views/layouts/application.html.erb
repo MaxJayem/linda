@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>Chatbot Research</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1, maximum-scale=1"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <%= csrf_meta_tags %>
 </head>
+
 <body>
 <%= yield %>
-
 </body>
+
 </html>

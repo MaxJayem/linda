@@ -2,50 +2,65 @@ class UserController < ApplicationController
 
   $messageContexts = []
 
-
     def sendMessage
 
-      puts $globalContexts
+        ### DEFINE CLIENT TOKEN ###
 
         # RB Casey
         #client = ApiAiRuby::Client.new(:client_access_token => '6db6184d633a47b280d1edfa4a152c9a', api_lang: 'DE')
 
         # Experiment 1: Control
-        client = ApiAiRuby::Client.new(:client_access_token => 'f853b51cc490411c926df2237967062a')
+        client = ApiAiRuby::Client.new(:client_access_token => 'f853b51cc490411c926df2237967062a', api_lang: 'DE')
 
         # Experiment 1: Treatment
-        #client = ApiAiRuby::Client.new(:client_access_token => '3ccae6b76b5740b2816d571da20f7417')
+        #client = ApiAiRuby::Client.new(:client_access_token => '3ccae6b76b5740b2816d571da20f7417, api_lang: 'DE')
 
+        # Send user message if input fields contain text
         if not params[:message_input_field].blank?
             params[:message] = params[:message_input_field]
             response = client.text_request params[:message_input_field], :contexts => $messageContexts
+            puts response
         else
             if not params[:quickResponse].blank?
                 params[:message] = params[:quickResponse]
                 response = client.text_request params[:quickResponse], :contexts => $messageContexts
+                puts response
             end
         end
 
-        #params[:response] = response[:result][:fulfillment][:messages]
+        # For simple text response
         simpleResponses = []
+
+        # For quick reply
         suggestionResponses = []
 
+        # For basic basic_card
+        basicCardsTexts = []
+        basicCardsLinkTexts = []
+        basicCardsLinkUrls = []
+        basicCardsImgUrls = []
+
+        # Process response from Dialogflow
         for i in 0..(response[:result][:fulfillment][:messages]).length-1
-            if response[:result][:fulfillment][:messages][i][:type]=="simple_response"
-                 simpleResponses << response[:result][:fulfillment][:messages][i][:textToSpeech]
-            else
-                if response[:result][:fulfillment][:messages][i][:type]=="suggestion_chips"
-                    #puts response[:result][:fulfillment][:messages][i][:suggestions]
-                    for j in 0..(response[:result][:fulfillment][:messages][i][:suggestions]).length-1
-                        #puts response[:result][:fulfillment][:messages][:suggestions]
-                        suggestionResponses << response[:result][:fulfillment][:messages][i][:suggestions][j][:title]
-                    end
-                end
+          responseType = response[:result][:fulfillment][:messages][i][:type]
+          case responseType
+          when "simple_response"
+            simpleResponses << response[:result][:fulfillment][:messages][i][:textToSpeech]
+          when "suggestion_chips"
+            for j in 0..(response[:result][:fulfillment][:messages][i][:suggestions]).length-1
+              suggestionResponses << response[:result][:fulfillment][:messages][i][:suggestions][j][:title]
             end
+          when "basic_card"
+            basicCardsTexts << response[:result][:fulfillment][:messages][i][:formattedText]
+            basicCardsLinkTexts << response[:result][:fulfillment][:messages][i][:buttons][0][:title]
+            basicCardsLinkUrls << response[:result][:fulfillment][:messages][i][:buttons][0][:openUrlAction][:url]
+            basicCardsImgUrls << response[:result][:fulfillment][:messages][i][:image][:url]
+          else
+            puts "Response type unknown"
+          end
         end
 
         # Empty messageContexts to delete context from previous message
-        puts "messageContexts wird resettet, Länge sollte wieder 0 sein:"
         $messageContexts = []
 
         # Add contexts from current message to messageContexts variable
@@ -53,10 +68,17 @@ class UserController < ApplicationController
           $messageContexts << ApiAiRuby::Context.new(response[:result][:contexts][i][:name])
         end
 
-        params[:response] = simpleResponses
+        # Params for view
+        params[:simpleResponses] = simpleResponses
         params[:suggestionResponses] = suggestionResponses
+        params[:basicCardsTexts] = basicCardsTexts
+        params[:basicCardsLinkTexts] = basicCardsLinkTexts
+        params[:basicCardsLinkUrls] = basicCardsLinkUrls
+        params[:basicCardsImgUrls] = basicCardsImgUrls
+
         respond_to do |format|
             format.js
         end
+
     end
 end
