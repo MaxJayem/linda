@@ -7,7 +7,7 @@ class UserController < ApplicationController
         ### DEFINE CLIENT TOKEN ###
 
         # RB Casey
-        #client = ApiAiRuby::Client.new(:client_access_token => '6db6184d633a47b280d1edfa4a152c9a', api_lang: 'DE')
+        #lient = ApiAiRuby::Client.new(:client_access_token => '6db6184d633a47b280d1edfa4a152c9a', api_lang: 'DE')
 
         # Experiment 1: Control
         client = ApiAiRuby::Client.new(:client_access_token => 'f853b51cc490411c926df2237967062a', api_lang: 'DE')
@@ -49,8 +49,11 @@ class UserController < ApplicationController
           case responseType
           when "simple_response"
             simpleResponses << response[:result][:fulfillment][:messages][i][:textToSpeech]
+          # Check for prompts
           when 0
+            if response[:result][:fulfillment][:messages][0][:speech] != nil
             simpleResponses << response[:result][:fulfillment][:messages][i][:speech]
+            end
           when "suggestion_chips"
             for j in 0..(response[:result][:fulfillment][:messages][i][:suggestions]).length-1
               suggestionResponses << response[:result][:fulfillment][:messages][i][:suggestions][j][:title]
