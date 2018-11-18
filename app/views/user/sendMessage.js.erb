@@ -1,34 +1,70 @@
 // Empty quick response container
 $('.quickResponseContainer').empty();
 
-// Append new item to conversation
+// Append user statement to conversation
 $('.conversation').append("<li class='me'><%=params[:message]%></li>");
-
-// Add received simple responses to conversation
-<% for i in 0..params[:simpleResponses].length-1 %>
-  $('.conversation').append("<li class='him'><%=params[:simpleResponses][i]%></li>");
-<%end%>
-
-// Add received basic cards to conversation
-<% for i in 0..params[:basicCardsTexts].length-1 %>
-  $('.conversation').append("<li class='him'><%=params[:basicCardsTexts][i]%><br><a href='<%=params[:basicCardsLinkUrls][i]%>' target='_blank'><img src='<%=params[:basicCardsImgUrls][i]%>' style='width:100px; margin: 3px 0px; border: solid 1px; border-color: grey; display: block;margin-left: auto;margin-right: auto;' alt='Missing image'></a><center><a href='<%=params[:basicCardsLinkUrls][i]%>' target='_blank'><%=params[:basicCardsLinkTexts][i]%></a></center></li>");
-<%end%>
-
-// Hide quick response container if no quick response has been received and it is visible
-<% if params[:suggestionResponses].length == 0 %>
-      if ($('.quickResponseContainer').height()==45) {$('.quickResponseContainer').height("-=45");$('.screen').height("+=45");}
-<%end%>
-
-// Show quick response container if quick response has been received and it is not visible
-<% if params[:suggestionResponses].length > 0 %>
-      if ($('.quickResponseContainer').height()==0) {$('.quickResponseContainer').height("+=45");$('.screen').height("-=45");}
-<%end%>
-
-// Add quick response items to container if quick response has been received
-<% for i in 0..params[:suggestionResponses].length-1 %>
-    $('.quickResponseContainer').append("<button name='quickResponse' class='quickResponse' value='<%=params[:suggestionResponses][i]%>'><%=params[:suggestionResponses][i]%></button>");
-<%end%>
 
 // Empty message input field and scroll to top
 $('#message_input_field').val("");
+
+// Calculate timeout for typing
+<%
+@timeoutDuration = 0
+puts "timeoutDuration set to: " + @timeoutDuration.to_s
+for i in 0..params[:simpleResponses].length-1
+  @timeoutDuration += params[:simpleResponses][i].length
+  puts "timeoutDuration set to: " + @timeoutDuration.to_s
+end
+
+for i in 0..params[:basicCardsTexts].length-1
+  @timeoutDuration += params[:basicCardsTexts][i].length
+  puts "timeoutDuration set to: " + @timeoutDuration.to_s
+end
+
+@timeoutDuration = @timeoutDuration * 10
+puts "Final timeoutDuration set to: " + @timeoutDuration.to_s
+%>
+
+var timeout = <%= @timeoutDuration %>;
+
+// Append loading dots
+$('.conversation').append("<li class='him' id='loadingDots'><span class='loading'></span></li>");
 $('.screen').scrollTop(90000000);
+setTimeout(removeLoadingDots, timeout);
+
+// Remove loading dots and then show answers
+function removeLoadingDots() {
+  var element = document.getElementById('loadingDots');
+  element.parentNode.removeChild(element);
+  showAnswers();
+}
+
+// Add simple responses, basic cards, and quick replies
+function showAnswers() {
+  // Add simple responses by chatbot to conversation
+  <% for i in 0..params[:simpleResponses].length-1 %>
+    $('.conversation').append("<li class='him'><%=params[:simpleResponses][i]%></li>");
+  <%end%>
+
+  // Add basic cards by chatbot to conversation
+  <% for i in 0..params[:basicCardsTexts].length-1 %>
+    $('.conversation').append("<li class='him'><%=params[:basicCardsTexts][i]%><br><a href='<%=params[:basicCardsLinkUrls][i]%>' target='_blank'><img src='<%=params[:basicCardsImgUrls][i]%>' style='width:100px; margin: 3px 0px; border: solid 1px; border-color: grey; display: block;margin-left: auto;margin-right: auto;' alt='Missing image'></a><center><a href='<%=params[:basicCardsLinkUrls][i]%>' target='_blank'><%=params[:basicCardsLinkTexts][i]%></a></center></li>");
+  <%end%>
+
+  // Hide quick response container if no quick response has been received and it is visible
+  <% if params[:suggestionResponses].length == 0 %>
+      if ($('.quickResponseContainer').height()==45) {$('.quickResponseContainer').height("-=45");$('.screen').height("+=45");}
+  <%end%>
+
+  // Show quick response container if quick response has been received and it is not visible
+  <% if params[:suggestionResponses].length > 0 %>
+    if ($('.quickResponseContainer').height()==0) {$('.quickResponseContainer').height("+=45");$('.screen').height("-=45");}
+  <%end%>
+
+  // Add quick response items to container if quick response has been received
+  <% for i in 0..params[:suggestionResponses].length-1 %>
+    $('.quickResponseContainer').append("<button name='quickResponse' class='quickResponse' value='<%=params[:suggestionResponses][i]%>'><%=params[:suggestionResponses][i]%></button>");
+  <%end%>
+
+  $('.screen').scrollTop(90000000);
+}

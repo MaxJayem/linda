@@ -40,6 +40,9 @@ class UserController < ApplicationController
         basicCardsLinkUrls = []
         basicCardsImgUrls = []
 
+        # For timeOutDuratio
+        @timeoutDuration = 0
+
         # Process response from Dialogflow
         for i in 0..(response[:result][:fulfillment][:messages]).length-1
           responseType = response[:result][:fulfillment][:messages][i][:type]

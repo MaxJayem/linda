@@ -28651,3 +28651,2217 @@ Processing by UserController#sendMessage as JS
   Parameters: {"utf8"=>"✓", "message_input_field"=>"Hallo", "button"=>""}
   Rendered user/sendMessage.js.erb (0.7ms)
 Completed 200 OK in 273ms (Views: 11.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 14:20:22 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (163.4ms)
+Completed 200 OK in 206ms (Views: 198.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 14:28:48 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 15ms (Views: 14.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 14:28:50 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"hi", "button"=>""}
+  Rendered user/sendMessage.js.erb (1.0ms)
+Completed 200 OK in 273ms (Views: 20.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 14:28:53 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"", "quickResponse"=>"Fallstudie üben"}
+  Rendered user/sendMessage.js.erb (0.1ms)
+Completed 200 OK in 204ms (Views: 8.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 14:28:54 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"", "quickResponse"=>"Fallstudie starten"}
+  Rendered user/sendMessage.js.erb (0.1ms)
+Completed 200 OK in 211ms (Views: 12.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 14:29:11 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 16ms (Views: 15.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 14:29:13 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"hi", "button"=>""}
+  Rendered user/sendMessage.js.erb (0.3ms)
+Completed 200 OK in 207ms (Views: 12.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 14:30:56 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 15ms (Views: 14.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 14:31:41 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 16ms (Views: 15.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 14:31:44 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"hi", "button"=>""}
+  Rendered user/sendMessage.js.erb (1.9ms)
+Completed 200 OK in 226ms (Views: 14.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 14:32:13 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"", "quickResponse"=>"Fallstudie üben"}
+  Rendered user/sendMessage.js.erb (1.0ms)
+Completed 200 OK in 212ms (Views: 10.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 14:32:35 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 14ms (Views: 13.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 14:32:37 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"hi", "button"=>""}
+  Rendered user/sendMessage.js.erb (0.9ms)
+Completed 200 OK in 204ms (Views: 9.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 14:32:45 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 17ms (Views: 16.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 14:32:46 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"hi", "button"=>""}
+  Rendered user/sendMessage.js.erb (1.9ms)
+Completed 200 OK in 206ms (Views: 15.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 14:33:25 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 23ms (Views: 22.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 14:33:29 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"jiojasd", "button"=>""}
+  Rendered user/sendMessage.js.erb (1.3ms)
+Completed 200 OK in 213ms (Views: 13.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 14:33:33 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"hi", "quickResponse"=>"Neu formulieren"}
+  Rendered user/sendMessage.js.erb (0.4ms)
+Completed 200 OK in 207ms (Views: 13.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 14:34:11 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 18ms (Views: 17.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 14:34:12 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"as", "button"=>""}
+  Rendered user/sendMessage.js.erb (1.2ms)
+Completed 200 OK in 202ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 14:34:55 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 14ms (Views: 13.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 14:34:56 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"asdas", "button"=>""}
+  Rendered user/sendMessage.js.erb (0.9ms)
+Completed 200 OK in 214ms (Views: 9.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 14:36:36 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 263ms (Views: 262.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.self-2a75e2ca56ca56b57c674a1f481a4bf6e27f5d62edeed1e42ea3e27a2248b6cb.css?body=1" for ::1 at 2018-11-18 14:36:36 +0100
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 14:36:37 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"asd", "button"=>""}
+  Rendered user/sendMessage.js.erb (1.0ms)
+Completed 200 OK in 253ms (Views: 11.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 14:36:39 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"asdadsa", "button"=>""}
+  Rendered user/sendMessage.js.erb (0.3ms)
+Completed 200 OK in 450ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 14:36:49 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 20ms (Views: 19.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 14:36:51 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"hallo", "button"=>""}
+  Rendered user/sendMessage.js.erb (0.2ms)
+Completed 200 OK in 295ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 14:37:07 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 18ms (Views: 17.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 14:37:08 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"asd", "button"=>""}
+  Rendered user/sendMessage.js.erb (0.9ms)
+Completed 200 OK in 254ms (Views: 9.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 14:37:20 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 16ms (Views: 15.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 14:37:20 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"asds", "button"=>""}
+  Rendered user/sendMessage.js.erb (0.9ms)
+Completed 200 OK in 227ms (Views: 9.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 14:37:35 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 18ms (Views: 17.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 14:37:42 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 26ms (Views: 24.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 14:37:58 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 15ms (Views: 14.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 14:38:11 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 17ms (Views: 16.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 14:39:27 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 16ms (Views: 15.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 14:39:28 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"as", "button"=>""}
+  Rendered user/sendMessage.js.erb (0.9ms)
+Completed 200 OK in 345ms (Views: 7.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 14:39:40 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 15ms (Views: 14.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 14:39:42 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"adsa", "button"=>""}
+  Rendered user/sendMessage.js.erb (1.9ms)
+Completed 200 OK in 244ms (Views: 14.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 14:40:07 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 14ms (Views: 13.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 14:40:09 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"dasd", "button"=>""}
+  Rendered user/sendMessage.js.erb (0.8ms)
+Completed 200 OK in 451ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 14:40:16 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 22ms (Views: 20.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 14:40:17 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"das", "button"=>""}
+  Rendered user/sendMessage.js.erb (1.0ms)
+Completed 200 OK in 215ms (Views: 19.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 14:40:43 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 15ms (Views: 14.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 14:40:45 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"hi", "button"=>""}
+  Rendered user/sendMessage.js.erb (2.4ms)
+Completed 200 OK in 509ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 15:12:59 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"hi", "quickResponse"=>"Frage stellen"}
+  Rendered user/sendMessage.js.erb (0.2ms)
+Completed 200 OK in 585ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 15:13:01 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 14ms (Views: 13.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 15:13:06 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 14ms (Views: 13.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 15:13:07 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 14ms (Views: 13.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 15:13:12 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 15ms (Views: 14.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 15:13:14 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"hi", "button"=>""}
+  Rendered user/sendMessage.js.erb (0.1ms)
+Completed 200 OK in 378ms (Views: 4.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 15:13:40 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 17ms (Views: 16.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 15:14:16 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 89ms (Views: 88.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.self-7b001bf39b47be8648fa8591cd95838711e3518b0a654784854ee2732a3586bf.css?body=1" for ::1 at 2018-11-18 15:14:17 +0100
+
+
+Started GET "/" for ::1 at 2018-11-18 15:14:32 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 110ms (Views: 109.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.self-79655acb166f52ca049220a2a7917d303b8c7596ab41a3035f9fd20a3c6063ca.css?body=1" for ::1 at 2018-11-18 15:14:32 +0100
+
+
+Started GET "/" for ::1 at 2018-11-18 15:14:47 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 95ms (Views: 94.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.self-49debd8e7d30bfa5a586734189881eb915a338a880da63fd819dbb27075c152e.css?body=1" for ::1 at 2018-11-18 15:14:47 +0100
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 15:14:56 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"hi", "button"=>""}
+  Rendered user/sendMessage.js.erb (0.3ms)
+Completed 200 OK in 204ms (Views: 11.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 15:15:11 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 100ms (Views: 98.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.self-9543e951e9abdbc3a96b4ad32d68ec476a93a686c57cbb895b6e9d5178b1372a.css?body=1" for ::1 at 2018-11-18 15:15:12 +0100
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 15:15:14 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"hi", "button"=>""}
+  Rendered user/sendMessage.js.erb (0.5ms)
+Completed 200 OK in 217ms (Views: 13.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 15:15:29 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 78ms (Views: 76.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.self-f9a853f79d115e851ef95610c0058567eea6653e917b82c05f3f62ffba590048.css?body=1" for ::1 at 2018-11-18 15:15:29 +0100
+
+
+Started GET "/" for ::1 at 2018-11-18 15:15:50 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 91ms (Views: 90.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.self-905cbe86d2889a85a832798379e80935e08fd8586014ce50a3873d1ab1dbee4e.css?body=1" for ::1 at 2018-11-18 15:15:50 +0100
+
+
+Started GET "/" for ::1 at 2018-11-18 15:16:01 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 16ms (Views: 15.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 15:16:17 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 15ms (Views: 14.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 15:16:19 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"hi", "button"=>""}
+  Rendered user/sendMessage.js.erb (1.1ms)
+Completed 200 OK in 210ms (Views: 9.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 15:18:00 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 16ms (Views: 15.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 15:18:11 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 97ms (Views: 96.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.self-50e9da4b22590df957fe91d47f0bc7dfb5cdeefd3f2bd463ae6d276b95b2244c.css?body=1" for ::1 at 2018-11-18 15:18:11 +0100
+
+
+Started GET "/" for ::1 at 2018-11-18 15:19:55 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 90ms (Views: 89.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.self-ce93066e1922a9723ee971239aac3d378075e2da1c16b81f76db0e206cb764fe.css?body=1" for ::1 at 2018-11-18 15:19:55 +0100
+
+
+Started GET "/" for ::1 at 2018-11-18 15:20:28 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 92ms (Views: 91.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.self-af3873b4194d51cab1eba51e2be150618e7512f982f6a068836d943eef0a0491.css?body=1" for ::1 at 2018-11-18 15:20:28 +0100
+
+
+Started GET "/" for ::1 at 2018-11-18 15:20:43 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 69ms (Views: 68.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.self-9df7655cd401c5a88e6c7ef970b75a6b6233e9098061a141bee8699451035ace.css?body=1" for ::1 at 2018-11-18 15:20:43 +0100
+
+
+Started GET "/" for ::1 at 2018-11-18 15:20:49 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 81ms (Views: 80.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.self-2af5fd30ccd16fe03bce64b361009e09f2630dfeb577bdb75ebaf7da5e4775b3.css?body=1" for ::1 at 2018-11-18 15:20:50 +0100
+
+
+Started GET "/" for ::1 at 2018-11-18 15:21:15 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 92ms (Views: 91.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.self-b93047e8e9b23444cfbb360649522fe22c99174c726bf1bf9ed437796791d38c.css?body=1" for ::1 at 2018-11-18 15:21:15 +0100
+
+
+Started GET "/" for ::1 at 2018-11-18 15:21:27 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 77ms (Views: 76.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.self-febc1cca1b15caaf0f59edf967d7082cec4eb91dd157774435fad12352a4e04e.css?body=1" for ::1 at 2018-11-18 15:21:27 +0100
+
+
+Started GET "/" for ::1 at 2018-11-18 15:21:41 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 19ms (Views: 17.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 15:23:22 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 111ms (Views: 110.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.self-799194dda2810f7d92ae0ce2ae850db8fbc5d21655f24b81a66c5b038c5659e3.css?body=1" for ::1 at 2018-11-18 15:23:22 +0100
+
+
+Started GET "/" for ::1 at 2018-11-18 15:23:35 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 81ms (Views: 80.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.self-f0bb5eb77a87b97c11f3c59c641f62feb296450b9ac6f118e944d84a947d602c.css?body=1" for ::1 at 2018-11-18 15:23:35 +0100
+
+
+Started GET "/" for ::1 at 2018-11-18 15:23:47 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 90ms (Views: 89.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.self-f08c1b0a67d2043908888b94514c47972c9d6fbd2740f26d0a3c438fa264d5dd.css?body=1" for ::1 at 2018-11-18 15:23:47 +0100
+
+
+Started GET "/" for ::1 at 2018-11-18 15:23:54 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 111ms (Views: 111.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.self-ebd83f5fe86427eec12e618aa861835e7330ee548a82d4df2d96ecb8ebb3fd44.css?body=1" for ::1 at 2018-11-18 15:23:55 +0100
+
+
+Started GET "/" for ::1 at 2018-11-18 15:24:06 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 28ms (Views: 27.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 15:24:27 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 109ms (Views: 108.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.self-417d287e7673abecb294995c991b8e616e0c525cd511a5dec248f9733227bc71.css?body=1" for ::1 at 2018-11-18 15:24:27 +0100
+
+
+Started GET "/" for ::1 at 2018-11-18 15:24:46 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 17ms (Views: 16.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 15:24:59 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 26ms (Views: 25.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 15:25:06 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"hi", "button"=>""}
+  Rendered user/sendMessage.js.erb (0.2ms)
+Completed 200 OK in 275ms (Views: 12.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 15:25:37 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 14ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 15:25:40 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 19ms (Views: 18.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 15:25:56 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 14ms (Views: 13.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 15:26:11 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.8ms)
+Completed 500 Internal Server Error in 31ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Invalid CSS after "... .5em 0 0 black": expected ";", was ");}"):
+    3: 
+    4: <head>
+    5:   <title>Chatbot Research</title>
+    6:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    7:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    8:   <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1, maximum-scale=1, user-scalable="0" />
+    9:   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  app/assets/stylesheets/welcome.scss:102
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___1316535091257288577_70205764269180'
+
+
+  Rendered /Users/diederich/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.5ms)
+  Rendered /Users/diederich/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /Users/diederich/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/diederich/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (85.3ms)
+  Rendered /Users/diederich/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/diederich/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/diederich/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/diederich/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/diederich/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (90.2ms)
+  Rendered /Users/diederich/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/diederich/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/diederich/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (203.4ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 15:26:15 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 118ms (Views: 116.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.self-6767786f394485b532c78c9501e9f35cc5535d81ba6df7bdbabd347de6a49ea6.css?body=1" for ::1 at 2018-11-18 15:26:15 +0100
+
+
+Started GET "/" for ::1 at 2018-11-18 15:26:22 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 23ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 15:26:43 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 81ms (Views: 80.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.self-d65ce4ac0a166023161ede722d8c1940af1c4577fefb6e5fa3fc2b236e717ed0.css?body=1" for ::1 at 2018-11-18 15:26:43 +0100
+
+
+Started GET "/" for ::1 at 2018-11-18 15:26:53 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 108ms (Views: 107.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.self-d9cc0214c2e44e6f02d0c664f31e25fb5682cf8da7e45767abc66ae58f470d48.css?body=1" for ::1 at 2018-11-18 15:26:53 +0100
+
+
+Started GET "/" for ::1 at 2018-11-18 15:26:59 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 18ms (Views: 17.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 15:27:08 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 22ms (Views: 21.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 15:27:45 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 104ms (Views: 103.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.self-f4d07355ce247a7b584dfbbecb6c58ff1ede5eaed20112fc068a262516e783b1.css?body=1" for ::1 at 2018-11-18 15:27:45 +0100
+
+
+Started GET "/" for ::1 at 2018-11-18 15:28:00 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 94ms (Views: 93.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.self-8d775ec682074bdbc201bf38377b813bb5ec3abe97491df4e2a4f5a76063f4a2.css?body=1" for ::1 at 2018-11-18 15:28:00 +0100
+
+
+Started GET "/" for ::1 at 2018-11-18 15:28:06 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 18ms (Views: 17.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 15:28:29 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 117ms (Views: 116.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.self-f284d57273dd0541cfc4e18c8d028aa0c5b9420dfecaba2de123c8ec421f3678.css?body=1" for ::1 at 2018-11-18 15:28:29 +0100
+
+
+Started GET "/" for ::1 at 2018-11-18 15:29:09 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 39ms (Views: 38.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 15:29:14 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 107ms (Views: 107.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.self-a4568988f63bc0569159ecd18a26d53850d04834aeb12026f46b4cea811862c3.css?body=1" for ::1 at 2018-11-18 15:29:15 +0100
+
+
+Started GET "/" for ::1 at 2018-11-18 15:29:24 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 14ms (Views: 14.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 15:29:56 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (3.8ms)
+Completed 500 Internal Server Error in 27ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Invalid CSS after "...: rgba(0,0,0,0)": expected "{", was ";"):
+    3: 
+    4: <head>
+    5:   <title>Chatbot Research</title>
+    6:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    7:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    8:   <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1, maximum-scale=1, user-scalable="0" />
+    9:   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  app/assets/stylesheets/welcome.scss:97
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___1316535091257288577_70205764269180'
+
+
+  Rendered /Users/diederich/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.9ms)
+  Rendered /Users/diederich/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /Users/diederich/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/diederich/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (87.7ms)
+  Rendered /Users/diederich/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/diederich/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/diederich/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/diederich/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/diederich/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (77.1ms)
+  Rendered /Users/diederich/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/diederich/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/diederich/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (171.8ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 15:30:16 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (5.8ms)
+Completed 500 Internal Server Error in 47ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Invalid CSS after "...: rgba(0,0,0,0)": expected "{", was ";"):
+    3: 
+    4: <head>
+    5:   <title>Chatbot Research</title>
+    6:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    7:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    8:   <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1, maximum-scale=1, user-scalable="0" />
+    9:   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  app/assets/stylesheets/welcome.scss:97
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___1316535091257288577_70205764269180'
+
+
+  Rendered /Users/diederich/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.9ms)
+  Rendered /Users/diederich/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /Users/diederich/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/diederich/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (82.4ms)
+  Rendered /Users/diederich/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/diederich/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/diederich/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/diederich/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/diederich/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (72.9ms)
+  Rendered /Users/diederich/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/diederich/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/diederich/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (164.8ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 15:30:18 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.5ms)
+Completed 500 Internal Server Error in 20ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Invalid CSS after "...: rgba(0,0,0,0)": expected "{", was ";"):
+    3: 
+    4: <head>
+    5:   <title>Chatbot Research</title>
+    6:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    7:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    8:   <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1, maximum-scale=1, user-scalable="0" />
+    9:   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  app/assets/stylesheets/welcome.scss:97
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___1316535091257288577_70205764269180'
+
+
+  Rendered /Users/diederich/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.1ms)
+  Rendered /Users/diederich/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /Users/diederich/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/diederich/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (80.5ms)
+  Rendered /Users/diederich/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/diederich/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/diederich/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/diederich/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/diederich/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (68.6ms)
+  Rendered /Users/diederich/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/diederich/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/diederich/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (155.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 15:30:26 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 75ms (Views: 74.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.self-1db06411ef4a5cdf220a681e945aedf62f453378d9a8f6a4680698f35489cf13.css?body=1" for ::1 at 2018-11-18 15:30:26 +0100
+
+
+Started GET "/" for ::1 at 2018-11-18 15:30:41 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 17ms (Views: 16.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 15:31:40 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 18ms (Views: 17.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 15:31:49 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 83ms (Views: 82.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.self-26ed6fcc38a34b7159bdfb93295304aaab4e12025a4291d327602da54b2d7ca8.css?body=1" for ::1 at 2018-11-18 15:31:49 +0100
+
+
+Started GET "/" for ::1 at 2018-11-18 15:32:02 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 27ms (Views: 26.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 15:32:18 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 18ms (Views: 17.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 15:32:30 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 20ms (Views: 19.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 15:32:47 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 19ms (Views: 18.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 15:32:49 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"hi", "button"=>""}
+  Rendered user/sendMessage.js.erb (1.0ms)
+Completed 200 OK in 269ms (Views: 11.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 15:32:54 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 29ms (Views: 28.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 15:32:55 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"hi", "button"=>""}
+  Rendered user/sendMessage.js.erb (1.2ms)
+Completed 200 OK in 214ms (Views: 9.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 15:33:15 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 17ms (Views: 15.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 15:33:18 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"ad", "button"=>""}
+  Rendered user/sendMessage.js.erb (1.2ms)
+Completed 200 OK in 213ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 15:33:34 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 16ms (Views: 15.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 15:33:35 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"das", "button"=>""}
+  Rendered user/sendMessage.js.erb (1.1ms)
+Completed 200 OK in 214ms (Views: 9.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 15:33:46 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 16ms (Views: 16.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 15:33:48 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"asd", "button"=>""}
+  Rendered user/sendMessage.js.erb (0.1ms)
+Completed 200 OK in 248ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 15:34:33 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 19ms (Views: 18.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 15:34:35 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"das", "button"=>""}
+  Rendered user/sendMessage.js.erb (2.1ms)
+Completed 200 OK in 220ms (Views: 16.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 15:34:41 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 21ms (Views: 16.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 15:34:43 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"ads", "button"=>""}
+  Rendered user/sendMessage.js.erb (1.9ms)
+Completed 200 OK in 281ms (Views: 15.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 15:34:53 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 16ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 15:34:55 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"dasd", "button"=>""}
+  Rendered user/sendMessage.js.erb (0.9ms)
+Completed 200 OK in 221ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 15:35:05 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 17ms (Views: 16.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 15:35:07 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"sdas", "button"=>""}
+  Rendered user/sendMessage.js.erb (1.0ms)
+Completed 200 OK in 222ms (Views: 9.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 15:35:32 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 109ms (Views: 108.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.self-b8e1deda0861201fb20043da995bffed400018a218f0f06ee724b94b48d2b42a.css?body=1" for ::1 at 2018-11-18 15:35:32 +0100
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 15:35:33 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"das", "button"=>""}
+  Rendered user/sendMessage.js.erb (2.1ms)
+Completed 200 OK in 212ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 15:35:39 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 112ms (Views: 111.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.self-59da75055c12f99fa79110b906de451f9ee88630021615515899209ff027ec3e.css?body=1" for ::1 at 2018-11-18 15:35:39 +0100
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 15:35:40 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"asd", "button"=>""}
+  Rendered user/sendMessage.js.erb (0.2ms)
+Completed 200 OK in 223ms (Views: 11.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 15:35:46 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 123ms (Views: 122.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.self-481580e0e4e81a0e95f6a0c9264f940bef16ac83060c27842ee65986ac029874.css?body=1" for ::1 at 2018-11-18 15:35:46 +0100
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 15:35:48 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"ads", "button"=>""}
+  Rendered user/sendMessage.js.erb (0.1ms)
+Completed 200 OK in 208ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 15:35:53 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 123ms (Views: 122.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.self-3ed14d6b3fbedcefffffb40848ea0038408c36b63cc9bc1b426adb88859cf7f5.css?body=1" for ::1 at 2018-11-18 15:35:54 +0100
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 15:35:55 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"asdsa", "button"=>""}
+  Rendered user/sendMessage.js.erb (0.2ms)
+Completed 200 OK in 228ms (Views: 13.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 15:36:03 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 125ms (Views: 124.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.self-70a30421f3178e42ef667bd9958912a1030f86db2577987243474490c31ae425.css?body=1" for ::1 at 2018-11-18 15:36:03 +0100
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 15:36:04 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"adsdsa", "button"=>""}
+  Rendered user/sendMessage.js.erb (0.3ms)
+Completed 200 OK in 247ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 15:36:22 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 19ms (Views: 18.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 15:36:22 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"dasd", "button"=>""}
+  Rendered user/sendMessage.js.erb (0.2ms)
+Completed 200 OK in 217ms (Views: 12.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 15:38:21 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 17ms (Views: 16.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 15:38:22 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"asd", "button"=>""}
+  Rendered user/sendMessage.js.erb (1.2ms)
+Completed 200 OK in 204ms (Views: 11.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 15:38:44 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 16ms (Views: 15.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 15:38:46 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"asds", "button"=>""}
+  Rendered user/sendMessage.js.erb (0.8ms)
+Completed 200 OK in 456ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 15:40:02 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 18ms (Views: 18.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 15:40:04 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"asd", "button"=>""}
+  Rendered user/sendMessage.js.erb (0.8ms)
+Completed 200 OK in 708ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 15:40:22 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 17ms (Views: 16.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 15:40:24 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"ads", "button"=>""}
+  Rendered user/sendMessage.js.erb (0.8ms)
+Completed 200 OK in 475ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 15:41:27 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 19ms (Views: 18.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 15:41:29 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"gi", "button"=>""}
+  Rendered user/sendMessage.js.erb (1.4ms)
+Completed 200 OK in 223ms (Views: 14.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 15:42:01 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 26ms (Views: 25.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 15:42:03 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"da", "button"=>""}
+  Rendered user/sendMessage.js.erb (1.4ms)
+Completed 200 OK in 208ms (Views: 12.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 15:42:07 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 15ms (Views: 15.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 15:42:10 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"asdas", "button"=>""}
+  Rendered user/sendMessage.js.erb (0.2ms)
+Completed 200 OK in 203ms (Views: 9.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 16:36:02 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 17ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 16:36:04 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"hi", "button"=>""}
+  Rendered user/sendMessage.js.erb (0.9ms)
+Completed 200 OK in 551ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 16:36:23 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 15ms (Views: 14.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 16:36:24 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"hi", "button"=>""}
+  Rendered user/sendMessage.js.erb (1.4ms)
+Completed 200 OK in 220ms (Views: 11.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 16:38:46 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 16ms (Views: 15.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 16:38:48 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"hi", "button"=>""}
+  Rendered user/sendMessage.js.erb (1.0ms)
+Completed 200 OK in 314ms (Views: 11.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 16:38:57 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 20ms (Views: 19.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 16:38:59 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"hi", "button"=>""}
+  Rendered user/sendMessage.js.erb (0.8ms)
+Completed 200 OK in 301ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 16:39:08 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 20ms (Views: 19.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 16:39:10 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"hi", "button"=>""}
+  Rendered user/sendMessage.js.erb (1.2ms)
+Completed 200 OK in 213ms (Views: 12.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 16:39:39 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 16ms (Views: 15.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 16:39:40 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"hi", "button"=>""}
+  Rendered user/sendMessage.js.erb (2.1ms)
+Completed 200 OK in 210ms (Views: 16.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 16:40:18 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 22ms (Views: 21.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 16:40:22 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"hi", "button"=>""}
+  Rendered user/sendMessage.js.erb (0.2ms)
+Completed 200 OK in 322ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 16:40:30 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 20ms (Views: 19.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 16:40:38 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 20ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 16:40:44 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 17ms (Views: 16.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 16:40:47 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"hi", "button"=>""}
+  Rendered user/sendMessage.js.erb (0.4ms)
+Completed 200 OK in 203ms (Views: 13.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 16:41:43 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 18ms (Views: 17.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 16:41:44 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"hi", "button"=>""}
+  Rendered user/sendMessage.js.erb (1.2ms)
+Completed 200 OK in 317ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 16:42:31 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 17ms (Views: 16.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 16:42:32 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"hi", "button"=>""}
+  Rendered user/sendMessage.js.erb (1.2ms)
+Completed 200 OK in 235ms (Views: 10.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 16:42:51 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 19ms (Views: 18.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 16:42:52 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"hi", "button"=>""}
+  Rendered user/sendMessage.js.erb (0.9ms)
+Completed 200 OK in 207ms (Views: 9.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 16:43:42 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 17ms (Views: 16.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 16:43:44 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"hi", "button"=>""}
+  Rendered user/sendMessage.js.erb (1.5ms)
+Completed 200 OK in 251ms (Views: 13.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 16:46:00 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 16ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 16:46:02 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"hi", "button"=>""}
+  Rendered user/sendMessage.js.erb (0.8ms)
+Completed 200 OK in 239ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 16:49:13 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 17ms (Views: 16.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 16:49:15 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"aosjdao", "button"=>""}
+  Rendered user/sendMessage.js.erb (0.9ms)
+Completed 200 OK in 571ms (Views: 10.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 16:49:20 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"", "quickResponse"=>"An Ansprechpartner wenden"}
+  Rendered user/sendMessage.js.erb (0.2ms)
+Completed 200 OK in 451ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 16:49:27 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"mköm", "button"=>""}
+  Rendered user/sendMessage.js.erb (0.1ms)
+Completed 200 OK in 255ms (Views: 4.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 16:49:32 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"", "quickResponse"=>"An Ansprechpartner wenden"}
+  Rendered user/sendMessage.js.erb (0.2ms)
+Completed 200 OK in 216ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 16:50:10 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 17ms (Views: 16.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 16:50:12 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"hi", "button"=>""}
+  Rendered user/sendMessage.js.erb (1.4ms)
+Completed 200 OK in 260ms (Views: 14.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 16:50:17 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"", "quickResponse"=>"Fallstudie üben"}
+  Rendered user/sendMessage.js.erb (0.1ms)
+Completed 200 OK in 237ms (Views: 10.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 16:50:22 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"asdmaosmdoiaö", "quickResponse"=>"Fallstudie starten"}
+  Rendered user/sendMessage.js.erb (0.3ms)
+Completed 200 OK in 543ms (Views: 15.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 16:50:28 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"", "quickResponse"=>"An Ansprechpartner wenden"}
+  Rendered user/sendMessage.js.erb (0.5ms)
+Completed 200 OK in 353ms (Views: 15.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 16:52:33 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 15ms (Views: 14.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 16:52:34 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"hi", "button"=>""}
+  Rendered user/sendMessage.js.erb (0.9ms)
+Completed 200 OK in 643ms (Views: 12.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 16:53:41 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 19ms (Views: 18.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 16:53:44 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"hi", "button"=>""}
+  Rendered user/sendMessage.js.erb (1.7ms)
+Completed 200 OK in 312ms (Views: 14.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 17:01:05 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 15ms (Views: 14.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 17:01:06 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"hi", "button"=>""}
+  Rendered user/sendMessage.js.erb (0.2ms)
+Completed 200 OK in 1568ms (Views: 9.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 17:01:14 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"", "quickResponse"=>"Fallstudie üben"}
+  Rendered user/sendMessage.js.erb (0.1ms)
+Completed 200 OK in 210ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 17:01:20 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"", "quickResponse"=>"Fallstudie starten"}
+  Rendered user/sendMessage.js.erb (0.3ms)
+Completed 200 OK in 303ms (Views: 15.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 17:05:06 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 21ms (Views: 19.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 17:05:08 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"hi", "button"=>""}
+  Rendered user/sendMessage.js.erb (1.9ms)
+Completed 200 OK in 215ms (Views: 15.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 17:05:30 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 16ms (Views: 15.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 17:05:31 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"hi", "button"=>""}
+  Rendered user/sendMessage.js.erb (1.1ms)
+Completed 200 OK in 204ms (Views: 9.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 17:05:34 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"hi", "button"=>""}
+  Rendered user/sendMessage.js.erb (0.2ms)
+Completed 200 OK in 209ms (Views: 11.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 17:05:55 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 16ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 17:05:56 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"hi", "button"=>""}
+  Rendered user/sendMessage.js.erb (1.3ms)
+Completed 200 OK in 213ms (Views: 10.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 17:06:08 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"hallo", "quickResponse"=>"Frage stellen"}
+  Rendered user/sendMessage.js.erb (0.1ms)
+Completed 200 OK in 249ms (Views: 8.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 17:06:13 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"", "quickResponse"=>"Fallstudie üben"}
+  Rendered user/sendMessage.js.erb (0.1ms)
+Completed 200 OK in 208ms (Views: 9.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 17:07:03 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 16ms (Views: 16.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 17:07:04 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"hi", "button"=>""}
+  Rendered user/sendMessage.js.erb (0.3ms)
+Completed 200 OK in 212ms (Views: 13.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 17:10:57 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 16ms (Views: 15.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 17:10:59 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"hi", "button"=>""}
+  Rendered user/sendMessage.js.erb (30.9ms)
+Completed 500 Internal Server Error in 307ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined local variable or method `varparams' for #<#<Class:0x00007fb41dc78318>:0x00007fb41b695a88>):
+    13: var timeoutDuration = 0;
+    14: 
+    15: <% for i in 0..params[:simpleResponses].length-1
+    16:   var timeoutDuration += varparams[:simpleResponses][i].length
+    17:   puts "timeoutDuration set to " + timeoutDuration
+    18: end%>
+    19: 
+  app/views/user/sendMessage.js.erb:16:in `block in _app_views_user_send_essage_js_erb___3161205895069123866_70205765349680'
+  app/views/user/sendMessage.js.erb:15:in `_app_views_user_send_essage_js_erb___3161205895069123866_70205765349680'
+  app/controllers/user_controller.rb:79:in `sendMessage'
+
+
+  Rendered /Users/diederich/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.5ms)
+  Rendered /Users/diederich/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.7ms)
+  Rendered /Users/diederich/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.text.erb (59.3ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 17:12:06 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 17ms (Views: 17.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 17:12:08 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"hi", "button"=>""}
+  Rendered user/sendMessage.js.erb (2.0ms)
+Completed 200 OK in 276ms (Views: 15.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 17:12:59 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"hi", "button"=>""}
+  Rendered user/sendMessage.js.erb (1.2ms)
+Completed 500 Internal Server Error in 236ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/Users/diederich/Workspace/rb-casey/app/views/user/sendMessage.js.erb:59: syntax error, unexpected keyword_ensure, expecting keyword_end
+          ensure
+          ^~~~~~
+/Users/diederich/Workspace/rb-casey/app/views/user/sendMessage.js.erb:61: syntax error, unexpected end-of-input, expecting keyword_end
+          end
+             ^):
+  app/views/user/sendMessage.js.erb:59: syntax error, unexpected keyword_ensure, expecting keyword_end
+  app/views/user/sendMessage.js.erb:61: syntax error, unexpected end-of-input, expecting keyword_end
+  app/controllers/user_controller.rb:79:in `sendMessage'
+
+
+  Rendered /Users/diederich/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.6ms)
+  Rendered /Users/diederich/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.5ms)
+  Rendered /Users/diederich/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.5ms)
+  Rendered /Users/diederich/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (81.8ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 17:13:20 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 15ms (Views: 14.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 17:13:22 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"hi", "button"=>""}
+  Rendered user/sendMessage.js.erb (1.0ms)
+Completed 200 OK in 218ms (Views: 10.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 17:14:50 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 18ms (Views: 17.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 17:14:50 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"hi", "button"=>""}
+  Rendered user/sendMessage.js.erb (1.4ms)
+Completed 200 OK in 229ms (Views: 11.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 17:15:45 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 22ms (Views: 21.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 17:15:46 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"hi", "button"=>""}
+  Rendered user/sendMessage.js.erb (1.1ms)
+Completed 200 OK in 207ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 17:16:44 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 15ms (Views: 14.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 17:16:46 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"hi", "button"=>""}
+  Rendered user/sendMessage.js.erb (1.1ms)
+Completed 500 Internal Server Error in 216ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/Users/diederich/Workspace/rb-casey/app/views/user/sendMessage.js.erb:17: syntax error, unexpected '<'
+  timeoutDuration += <%params[:simpleResponses][i]....
+                     ^
+/Users/diederich/Workspace/rb-casey/app/views/user/sendMessage.js.erb:17: unknown type of %string
+  timeoutDuration += <%params[:simpleResponses][i].len...
+                      ^~~):
+  app/views/user/sendMessage.js.erb:17: syntax error, unexpected '<'
+  app/views/user/sendMessage.js.erb:17: unknown type of %string
+  app/controllers/user_controller.rb:79:in `sendMessage'
+
+
+  Rendered /Users/diederich/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.5ms)
+  Rendered /Users/diederich/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.5ms)
+  Rendered /Users/diederich/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.5ms)
+  Rendered /Users/diederich/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (73.4ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 17:16:59 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 24ms (Views: 23.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 17:17:01 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"hi", "button"=>""}
+  Rendered user/sendMessage.js.erb (1.8ms)
+Completed 200 OK in 234ms (Views: 16.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 17:17:27 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 16ms (Views: 15.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 17:17:28 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"hi", "button"=>""}
+  Rendered user/sendMessage.js.erb (3.3ms)
+Completed 500 Internal Server Error in 209ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (no implicit conversion of Integer into String):
+    15: 
+    16: for i in 0..params[:simpleResponses].length-1
+    17:   timeoutDuration += params[:simpleResponses][i].length
+    18:   puts "timeoutDuration set to: " + timeoutDuration
+    19: end %>
+    20: 
+    21: 
+  app/views/user/sendMessage.js.erb:18:in `+'
+  app/views/user/sendMessage.js.erb:18:in `block in _app_views_user_send_essage_js_erb___3161205895069123866_70205793074880'
+  app/views/user/sendMessage.js.erb:16:in `_app_views_user_send_essage_js_erb___3161205895069123866_70205793074880'
+  app/controllers/user_controller.rb:79:in `sendMessage'
+
+
+  Rendered /Users/diederich/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.5ms)
+  Rendered /Users/diederich/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.7ms)
+  Rendered /Users/diederich/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.text.erb (48.7ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 17:17:51 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 20ms (Views: 19.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 17:17:52 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"hi", "button"=>""}
+  Rendered user/sendMessage.js.erb (3.5ms)
+Completed 500 Internal Server Error in 240ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (no implicit conversion of Integer into String):
+    14: puts timeoutDuration
+    15: for i in 0..params[:simpleResponses].length-1
+    16:   timeoutDuration += params[:simpleResponses][i].length
+    17:   puts "timeoutDuration set to: " + timeoutDuration
+    18: end%>
+    19: 
+    20: 
+  app/views/user/sendMessage.js.erb:17:in `+'
+  app/views/user/sendMessage.js.erb:17:in `block in _app_views_user_send_essage_js_erb___3161205895069123866_70205753033940'
+  app/views/user/sendMessage.js.erb:15:in `_app_views_user_send_essage_js_erb___3161205895069123866_70205753033940'
+  app/controllers/user_controller.rb:79:in `sendMessage'
+
+
+  Rendered /Users/diederich/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.5ms)
+  Rendered /Users/diederich/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.5ms)
+  Rendered /Users/diederich/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.text.erb (47.5ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 17:18:22 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"hi", "button"=>""}
+  Rendered user/sendMessage.js.erb (3.2ms)
+Completed 500 Internal Server Error in 363ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (no implicit conversion of Integer into String):
+    14: puts timeoutDuration
+    15: for i in 0..params[:simpleResponses].length-1
+    16:   timeoutDuration += params[:simpleResponses][i].length
+    17:   puts 'timeoutDuration set to: ' + timeoutDuration
+    18: end%>
+    19: 
+    20: 
+  app/views/user/sendMessage.js.erb:17:in `+'
+  app/views/user/sendMessage.js.erb:17:in `block in _app_views_user_send_essage_js_erb___3161205895069123866_70205746843060'
+  app/views/user/sendMessage.js.erb:15:in `_app_views_user_send_essage_js_erb___3161205895069123866_70205746843060'
+  app/controllers/user_controller.rb:79:in `sendMessage'
+
+
+  Rendered /Users/diederich/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.4ms)
+  Rendered /Users/diederich/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.6ms)
+  Rendered /Users/diederich/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.text.erb (47.2ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 17:18:23 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 14ms (Views: 13.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 17:18:24 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"hi", "button"=>""}
+  Rendered user/sendMessage.js.erb (2.8ms)
+Completed 500 Internal Server Error in 218ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (no implicit conversion of Integer into String):
+    14: puts timeoutDuration
+    15: for i in 0..params[:simpleResponses].length-1
+    16:   timeoutDuration += params[:simpleResponses][i].length
+    17:   puts 'timeoutDuration set to: ' + timeoutDuration
+    18: end%>
+    19: 
+    20: 
+  app/views/user/sendMessage.js.erb:17:in `+'
+  app/views/user/sendMessage.js.erb:17:in `block in _app_views_user_send_essage_js_erb___3161205895069123866_70205746843060'
+  app/views/user/sendMessage.js.erb:15:in `_app_views_user_send_essage_js_erb___3161205895069123866_70205746843060'
+  app/controllers/user_controller.rb:79:in `sendMessage'
+
+
+  Rendered /Users/diederich/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.5ms)
+  Rendered /Users/diederich/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.6ms)
+  Rendered /Users/diederich/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.text.erb (47.2ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 17:18:37 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 15ms (Views: 14.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 17:18:38 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"hi", "button"=>""}
+  Rendered user/sendMessage.js.erb (1.1ms)
+Completed 200 OK in 211ms (Views: 10.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 17:18:55 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 18ms (Views: 17.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 17:18:56 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"hi", "button"=>""}
+  Rendered user/sendMessage.js.erb (1.7ms)
+Completed 200 OK in 212ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 17:19:48 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 16ms (Views: 15.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 17:19:49 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"hi", "button"=>""}
+  Rendered user/sendMessage.js.erb (1.1ms)
+Completed 200 OK in 199ms (Views: 10.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 17:20:58 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 18ms (Views: 17.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 17:20:59 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"hi", "button"=>""}
+  Rendered user/sendMessage.js.erb (2.2ms)
+Completed 500 Internal Server Error in 591ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/Users/diederich/Workspace/rb-casey/app/views/user/sendMessage.js.erb:23: syntax error, unexpected '<', expecting keyword_end
+<%end
+^
+/Users/diederich/Workspace/rb-casey/app/views/user/sendMessage.js.erb:23: unknown type of %string
+<%end
+ ^~~):
+  app/views/user/sendMessage.js.erb:23: syntax error, unexpected '<', expecting keyword_end
+  app/views/user/sendMessage.js.erb:23: unknown type of %string
+  app/controllers/user_controller.rb:79:in `sendMessage'
+
+
+  Rendered /Users/diederich/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.5ms)
+  Rendered /Users/diederich/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.5ms)
+  Rendered /Users/diederich/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.6ms)
+  Rendered /Users/diederich/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (83.3ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 17:21:07 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 16ms (Views: 15.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 17:21:08 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"hi", "button"=>""}
+  Rendered user/sendMessage.js.erb (2.5ms)
+Completed 200 OK in 225ms (Views: 15.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 17:21:20 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"", "quickResponse"=>"Fallstudie üben"}
+  Rendered user/sendMessage.js.erb (0.5ms)
+Completed 200 OK in 226ms (Views: 14.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 17:21:25 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"", "quickResponse"=>"Fallstudie starten"}
+  Rendered user/sendMessage.js.erb (0.6ms)
+Completed 200 OK in 236ms (Views: 16.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 17:21:40 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"nolnmiop", "button"=>""}
+  Rendered user/sendMessage.js.erb (0.3ms)
+Completed 200 OK in 208ms (Views: 9.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 17:21:45 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"", "quickResponse"=>"An Ansprechpartner wenden"}
+  Rendered user/sendMessage.js.erb (0.4ms)
+Completed 200 OK in 220ms (Views: 10.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 17:22:40 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 15ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 17:22:42 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"hi", "button"=>""}
+  Rendered user/sendMessage.js.erb (1.3ms)
+Completed 200 OK in 215ms (Views: 11.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 17:24:16 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 15ms (Views: 14.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 17:24:18 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"hi", "button"=>""}
+  Rendered user/sendMessage.js.erb (0.2ms)
+Completed 200 OK in 222ms (Views: 9.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 17:24:25 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"", "quickResponse"=>"Fallstudie üben"}
+  Rendered user/sendMessage.js.erb (0.4ms)
+Completed 200 OK in 225ms (Views: 13.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 17:25:07 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 103ms (Views: 102.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.self-da7219587acf47cf29aa07cfe1c63742ddb7ac20c119363c9315e8d961e77e8b.css?body=1" for ::1 at 2018-11-18 17:25:08 +0100
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 17:25:09 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"hi", "button"=>""}
+  Rendered user/sendMessage.js.erb (0.5ms)
+Completed 200 OK in 223ms (Views: 13.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 17:25:15 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 115ms (Views: 114.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.self-e4b65ddf507a2d9fc139c4a624c8a46b078232b66241f2bc7f4ddcf3ab25e1cd.css?body=1" for ::1 at 2018-11-18 17:25:15 +0100
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 17:25:16 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"hi", "button"=>""}
+  Rendered user/sendMessage.js.erb (0.5ms)
+Completed 200 OK in 211ms (Views: 9.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 17:26:23 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 18ms (Views: 17.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 17:26:24 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"hi", "button"=>""}
+  Rendered user/sendMessage.js.erb (1.4ms)
+Completed 200 OK in 216ms (Views: 10.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 17:26:44 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 15ms (Views: 14.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 17:26:45 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"hi", "button"=>""}
+  Rendered user/sendMessage.js.erb (1.2ms)
+Completed 200 OK in 217ms (Views: 11.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 17:27:27 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 26ms (Views: 25.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 17:27:28 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"hi", "button"=>""}
+  Rendered user/sendMessage.js.erb (28.1ms)
+Completed 500 Internal Server Error in 257ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined local variable or method `timeOutDuration' for #<#<Class:0x00007fb41dc78318>:0x00007fb419baf638>
+Did you mean?  timeoutDuration):
+    24: puts "Final timeoutDuration set to: " + timeoutDuration.to_s
+    25: %>
+    26: 
+    27: var timeout = <% timeOutDuration %>
+    28: console.log(timeout.toString());
+    29: 
+    30: 
+  app/views/user/sendMessage.js.erb:27:in `_app_views_user_send_essage_js_erb___3161205895069123866_70205751257060'
+  app/controllers/user_controller.rb:79:in `sendMessage'
+
+
+  Rendered /Users/diederich/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.6ms)
+  Rendered /Users/diederich/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.7ms)
+  Rendered /Users/diederich/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.text.erb (50.7ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 17:30:26 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 21ms (Views: 20.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 17:30:27 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"hi", "button"=>""}
+  Rendered user/sendMessage.js.erb (1.6ms)
+Completed 200 OK in 282ms (Views: 12.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 17:31:02 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 21ms (Views: 20.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 17:31:03 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"hi", "button"=>""}
+  Rendered user/sendMessage.js.erb (1.8ms)
+Completed 200 OK in 218ms (Views: 11.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 17:32:02 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"hi", "quickResponse"=>"Frage stellen"}
+  Rendered user/sendMessage.js.erb (3.0ms)
+Completed 200 OK in 218ms (Views: 16.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 17:32:07 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 45ms (Views: 44.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 17:32:09 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"hi", "button"=>""}
+  Rendered user/sendMessage.js.erb (0.3ms)
+Completed 200 OK in 204ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 17:32:20 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"adas", "quickResponse"=>"Frage stellen"}
+  Rendered user/sendMessage.js.erb (0.3ms)
+Completed 200 OK in 214ms (Views: 9.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 17:32:26 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"npojiopjo", "quickResponse"=>"Neu formulieren"}
+  Rendered user/sendMessage.js.erb (0.3ms)
+Completed 200 OK in 212ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 17:32:28 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"", "quickResponse"=>"An Ansprechpartner wenden"}
+  Rendered user/sendMessage.js.erb (0.4ms)
+Completed 200 OK in 215ms (Views: 12.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 17:32:43 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"jnklnkn", "button"=>""}
+  Rendered user/sendMessage.js.erb (0.3ms)
+Completed 200 OK in 216ms (Views: 9.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 17:32:46 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"", "quickResponse"=>"Neu formulieren"}
+  Rendered user/sendMessage.js.erb (0.2ms)
+Completed 200 OK in 345ms (Views: 5.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 17:32:50 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"iopjiojo", "button"=>""}
+  Rendered user/sendMessage.js.erb (0.6ms)
+Completed 200 OK in 250ms (Views: 14.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 17:32:54 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"", "quickResponse"=>"An Ansprechpartner wenden"}
+  Rendered user/sendMessage.js.erb (0.7ms)
+Completed 200 OK in 213ms (Views: 15.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 17:33:05 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 17ms (Views: 16.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 17:33:06 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"hi", "button"=>""}
+  Rendered user/sendMessage.js.erb (2.5ms)
+Completed 200 OK in 228ms (Views: 16.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 17:33:15 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"opjio", "quickResponse"=>"Frage stellen"}
+  Rendered user/sendMessage.js.erb (0.2ms)
+Completed 200 OK in 254ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 17:33:20 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 18ms (Views: 17.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 17:33:21 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"hi", "button"=>""}
+  Rendered user/sendMessage.js.erb (1.3ms)
+Completed 200 OK in 208ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 17:33:26 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"", "quickResponse"=>"Fallstudie üben"}
+  Rendered user/sendMessage.js.erb (0.4ms)
+Completed 200 OK in 200ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 17:33:30 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"", "quickResponse"=>"Fallstudie starten"}
+  Rendered user/sendMessage.js.erb (0.5ms)
+Completed 200 OK in 241ms (Views: 16.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 17:34:05 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 18ms (Views: 17.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 17:34:06 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"hi", "button"=>""}
+  Rendered user/sendMessage.js.erb (1.8ms)
+Completed 200 OK in 227ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 17:34:11 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"", "quickResponse"=>"Fallstudie üben"}
+  Rendered user/sendMessage.js.erb (0.3ms)
+Completed 200 OK in 210ms (Views: 8.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 17:34:14 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"", "quickResponse"=>"Fallstudie starten"}
+  Rendered user/sendMessage.js.erb (0.5ms)
+Completed 200 OK in 238ms (Views: 13.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 17:34:25 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"hi", "button"=>""}
+  Rendered user/sendMessage.js.erb (0.7ms)
+Completed 200 OK in 219ms (Views: 15.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 17:34:29 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"", "quickResponse"=>"Fallstudie üben"}
+  Rendered user/sendMessage.js.erb (0.6ms)
+Completed 200 OK in 227ms (Views: 19.7ms | ActiveRecord: 0.0ms)
