@@ -1,0 +1,1 @@
+var viewportHeight=window.innerHeight;700<viewportHeight&&(viewportHeight=700),viewportHeight-=10;var agentHeight=$(".agent").outerHeight(!0),responseWrapperHeight=$("#responseWrapper").outerHeight(!0),screenHeight=viewportHeight-agentHeight-responseWrapperHeight;$(".smartphone").height(viewportHeight),$(".screen").height(screenHeight);

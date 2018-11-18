@@ -1,0 +1,1 @@
+function resizeView(){var e=window.innerHeight;700<e&&(e=700);var i=(e-=10)-$(".agent").outerHeight(!0)-$("#responseWrapper").outerHeight(!0);$(".smartphone").height(e),$(".screen").height(i),$(".screen").scrollTop(9e7)}resizeView(),window.addEventListener("resize",function(){resizeView()},!1);

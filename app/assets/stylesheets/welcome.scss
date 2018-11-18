@@ -1,10 +1,16 @@
 /* Total view */
+.smartphoneTopMargin {
+  height: 10px;
+  background-color: transparent;
+}
+
+/* Total view */
 .smartphone {
   width: 100%;
-  max-width: 570px;
+  max-width: 600px;;
+  height: 100vh;
   display: table;
   margin: auto;
-  margin-top: 15px;
   padding: 5px;
   background-color: SlateGray;
   border-radius: 5px;
@@ -15,25 +21,27 @@
   color: white;
   background-color: transparent;
   padding: 10px;
+  height: 60px;
 }
 
 /* Screen for conversation output */
 .screen {
   background: white;
-  height: 75vh;
   overflow-y: auto
  }
 
 /* Mobile view */
- @media only screen and (max-device-width: 800px) {
-   .smartphone {
-     margin-top: 0px;
-     padding: 0px;
+ @media only screen and (max-device-width: 600px) {
+
+   .smartphoneTopMargin {
+     height: 0px;
+     background-color: transparent;
    }
 
-   .screen {
-     height: 65vh;
-    }
+   .smartphone {
+     border-radius: 0px;
+     padding: 0px;
+   }
  }
 
 /* Dialogue items for chatbot */

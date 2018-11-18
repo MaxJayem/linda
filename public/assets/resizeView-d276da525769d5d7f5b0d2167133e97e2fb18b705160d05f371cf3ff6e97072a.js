@@ -1,0 +1,1 @@
+function resizeView(){var e=window.innerHeight;650<e&&(e=650);var i=(e-=10)-$(".agent").outerHeight(!0)-$("#responseWrapper").outerHeight(!0);$(".smartphone").height(e),$(".screen").height(i)}resizeView(),window.addEventListener("resize",function(){resizeView(),$(".smartphoneTopMargin").scrollTop(9e7)},!1);
