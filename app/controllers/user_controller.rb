@@ -49,6 +49,8 @@ class UserController < ApplicationController
           case responseType
           when "simple_response"
             simpleResponses << response[:result][:fulfillment][:messages][i][:textToSpeech]
+          when 0
+            simpleResponses << response[:result][:fulfillment][:messages][i][:speech]
           when "suggestion_chips"
             for j in 0..(response[:result][:fulfillment][:messages][i][:suggestions]).length-1
               suggestionResponses << response[:result][:fulfillment][:messages][i][:suggestions][j][:title]

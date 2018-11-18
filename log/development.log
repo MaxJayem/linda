@@ -30865,3 +30865,83 @@ Processing by UserController#sendMessage as JS
   Parameters: {"utf8"=>"✓", "message_input_field"=>"", "quickResponse"=>"Fallstudie üben"}
   Rendered user/sendMessage.js.erb (0.6ms)
 Completed 200 OK in 227ms (Views: 19.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 19:01:25 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (279.2ms)
+Completed 200 OK in 318ms (Views: 309.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 19:01:44 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"ich wohne in der Gryphiusstraße 11 in Hamburg", "button"=>""}
+  Rendered user/sendMessage.js.erb (0.9ms)
+Completed 200 OK in 636ms (Views: 19.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 19:05:52 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 21ms (Views: 21.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 19:05:57 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"ich wohne in der Gryphiusstraße 11", "button"=>""}
+  Rendered user/sendMessage.js.erb (0.1ms)
+Completed 200 OK in 512ms (Views: 10.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 19:06:28 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 18ms (Views: 17.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 19:06:38 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"ich wohne in der Gryphiusstraße 11", "button"=>""}
+  Rendered user/sendMessage.js.erb (0.1ms)
+Completed 200 OK in 327ms (Views: 11.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-11-18 19:07:27 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 26ms (Views: 25.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 19:07:31 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"ich wohne in der Gryphiusstraße 11", "button"=>""}
+  Rendered user/sendMessage.js.erb (0.2ms)
+Completed 200 OK in 247ms (Views: 10.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 19:07:45 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"Hamburg", "button"=>""}
+  Rendered user/sendMessage.js.erb (0.1ms)
+Completed 200 OK in 221ms (Views: 10.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 19:07:54 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"Gryphiusstraße 11 in Hamburg", "button"=>""}
+  Rendered user/sendMessage.js.erb (0.1ms)
+Completed 200 OK in 476ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 19:07:59 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"22299", "button"=>""}
+  Rendered user/sendMessage.js.erb (8.5ms)
+Completed 200 OK in 232ms (Views: 17.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sendMessage" for ::1 at 2018-11-18 19:08:15 +0100
+Processing by UserController#sendMessage as JS
+  Parameters: {"utf8"=>"✓", "message_input_field"=>"Gryphiusstraße 11 in 22299 Hamburg", "button"=>""}
+  Rendered user/sendMessage.js.erb (0.2ms)
+Completed 200 OK in 554ms (Views: 10.7ms | ActiveRecord: 0.0ms)
