@@ -1,30 +1,47 @@
 class UserController < ApplicationController
 
-  $messageContexts = []
-
     def sendMessage
 
         ### DEFINE CLIENT TOKEN ###
 
         # RB Casey
-        #lient = ApiAiRuby::Client.new(:client_access_token => '6db6184d633a47b280d1edfa4a152c9a', api_lang: 'DE')
+        #client = ApiAiRuby::Client.new(:client_access_token => '6db6184d633a47b280d1edfa4a152c9a', api_lang: 'DE')
 
         # Experiment 1: Control
         client = ApiAiRuby::Client.new(:client_access_token => 'f853b51cc490411c926df2237967062a', api_lang: 'DE')
 
         # Experiment 1: Treatment
-        #client = ApiAiRuby::Client.new(:client_access_token => '3ccae6b76b5740b2816d571da20f7417, api_lang: 'DE')
+        #client = ApiAiRuby::Client.new(:client_access_token => '3ccae6b76b5740b2816d571da20f7417', api_lang: 'DE')
+
+        # Prepare message contexts to be sent to Dialogflow
+        messageContextsObjects = []
+
+        if params[:messageContexts].length > 2
+          # Parse string to json
+          messageContextsString = params[:messageContexts].gsub("&quot;","\"")
+          messageContextsString = "{\"contexts\":" + messageContextsString + "}"
+          messageContextsJSON = JSON.parse(messageContextsString,:symbolize_names => true)
+
+          # Create context objects
+          messageContextsJSON.each do |key, array|
+            array.each do |value|
+              name = value[:name]
+              lifespan = value[:lifespan]
+              parameters = value[:parameters]
+              currentContext =  ApiAiRuby::Context.new(name, lifespan, parameters)
+              messageContextsObjects << currentContext
+            end
+          end
+        end
 
         # Send user message if input fields contain text
         if not params[:message_input_field].blank?
             params[:message] = params[:message_input_field]
-            response = client.text_request params[:message_input_field], :contexts => $messageContexts
-            puts response
+            response = client.text_request params[:message_input_field], :contexts => messageContextsObjects
         else
             if not params[:quickResponse].blank?
                 params[:message] = params[:quickResponse]
-                response = client.text_request params[:quickResponse], :contexts => $messageContexts
-                puts response
+                response = client.text_request params[:quickResponse], :contexts => messageContextsObjects
             end
         end
 
@@ -68,13 +85,12 @@ class UserController < ApplicationController
           end
         end
 
-        # Empty messageContexts to delete context from previous message
-        $messageContexts = []
-
-        # Add contexts from current message to messageContexts variable
+        # Process contexts received from Dialogflow
+        messageContexts = []
         for i in 0..(response[:result][:contexts]).length-1
-          $messageContexts << ApiAiRuby::Context.new(response[:result][:contexts][i][:name])
+          messageContexts << response[:result][:contexts][i]
         end
+        messageContextsJSON = messageContexts.to_json
 
         # Params for view
         params[:simpleResponses] = simpleResponses
@@ -83,6 +99,7 @@ class UserController < ApplicationController
         params[:basicCardsLinkTexts] = basicCardsLinkTexts
         params[:basicCardsLinkUrls] = basicCardsLinkUrls
         params[:basicCardsImgUrls] = basicCardsImgUrls
+        params[:messageContexts] = messageContextsJSON
 
         respond_to do |format|
             format.js

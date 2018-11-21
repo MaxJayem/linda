@@ -8,21 +8,19 @@ $('.conversation').append("<li class='me'><%=params[:message]%></li>");
 $('#message_input_field').val("");
 
 // Calculate timeout for typing
-<%
-@timeoutDuration = 0
+<%timeoutDuration = 0
 
 for i in 0..params[:simpleResponses].length-1
-  @timeoutDuration += params[:simpleResponses][i].length
+  timeoutDuration += params[:simpleResponses][i].length
 end
 
 for i in 0..params[:basicCardsTexts].length-1
-  @timeoutDuration += params[:basicCardsTexts][i].length
+  timeoutDuration += params[:basicCardsTexts][i].length
 end
 
-@timeoutDuration = @timeoutDuration * 15
-%>
+timeoutDuration = timeoutDuration * 15%>
 
-var timeout = <%= @timeoutDuration %>;
+var timeout = <%= timeoutDuration %>;
 
 // Append loading dots
 $('.conversation').append("<li class='him' id='loadingDots'><span class='loading'></span></li>");
@@ -62,6 +60,9 @@ function showAnswers() {
   <% for i in 0..params[:suggestionResponses].length-1 %>
     $('.quickResponseContainer').append("<button name='quickResponse' class='quickResponse' value='<%=params[:suggestionResponses][i]%>'><%=params[:suggestionResponses][i]%></button>");
   <%end%>
+
+  // Add current message contexts as string to hidden field in form
+  document.getElementById('messageContexts').setAttribute('value',  '<%=params[:messageContexts].to_s%>');
 
   $('.screen').scrollTop(90000000);
 }
