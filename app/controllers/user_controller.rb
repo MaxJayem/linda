@@ -8,7 +8,7 @@ class UserController < ApplicationController
         #client = ApiAiRuby::Client.new(:client_access_token => '6db6184d633a47b280d1edfa4a152c9a', api_lang: 'DE')
 
         # Experiment 1: Control
-        client = ApiAiRuby::Client.new(:client_access_token => 'f853b51cc490411c926df2237967062a', api_lang: 'EN')
+        client = ApiAiRuby::Client.new(:client_access_token => 'f853b51cc490411c926df2237967062a', api_lang: 'DE')
 
         # Experiment 1: Treatment
         #client = ApiAiRuby::Client.new(:client_access_token => '3ccae6b76b5740b2816d571da20f7417', api_lang: 'DE')
